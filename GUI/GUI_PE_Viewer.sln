@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI_PE_Viewer", "GUI_PE_Viewer\GUI_PE_Viewer.csproj", "{3FC8AB2D-73C0-4354-AEE1-0E8740350715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC8AB2D-73C0-4354-AEE1-0E8740350715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC8AB2D-73C0-4354-AEE1-0E8740350715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC8AB2D-73C0-4354-AEE1-0E8740350715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC8AB2D-73C0-4354-AEE1-0E8740350715}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D068D6D-E62C-4869-B76A-2D148D73857C}
+	EndGlobalSection
+EndGlobal

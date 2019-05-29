@@ -1,0 +1,35 @@
+﻿<Window x:Class="GUI_PE_Viewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI_PE_Viewer"
+        mc:Ignorable="d"
+        Title="PE Viewer" Height="604.5" Width="1034" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ListView HorizontalAlignment="Stretch" Height="554" Margin="243,21,0,0" VerticalAlignment="Top" Name ="listView">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Offset" Width="170" DisplayMemberBinding="{Binding Offset}" />
+                    <GridViewColumn Header="Value" Width="250" DisplayMemberBinding="{Binding Value}" />
+                    <GridViewColumn Header="Description" Width="Auto" DisplayMemberBinding="{Binding Description}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TreeView HorizontalAlignment="Left" Height="552" VerticalAlignment="Top" Width="242" Name ="TreeView" Margin="0,21,0,0">
+            <TreeViewItem Header="IMAGE DOS HEADER"/>
+            <TreeViewItem Header="IMAGE NT HEADERS">
+                <TreeViewItem Header="IMAGE FILE HEADER"/>
+                <TreeViewItem Header="IMAGE OPTIONAL HEADER"/>
+            </TreeViewItem>
+        </TreeView>
+        <Menu HorizontalAlignment="Left" Height="21" VerticalAlignment="Top" Width="1026">
+            <MenuItem Header = "열기" Click="OpenFile"/>
+        </Menu>
+    </Grid>
+</Window>

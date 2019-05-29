@@ -1,0 +1,15 @@
+D:\GUI_PE_Viewer\GUI_PE_Viewer\bin\Debug\GUI_PE_Viewer.exe.config
+D:\GUI_PE_Viewer\GUI_PE_Viewer\bin\Debug\GUI_PE_Viewer.exe
+D:\GUI_PE_Viewer\GUI_PE_Viewer\bin\Debug\GUI_PE_Viewer.pdb
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\GUI_PE_Viewer.csprojAssemblyReference.cache
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\MainWindow.g.cs
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\App.g.cs
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\GUI_PE_Viewer_MarkupCompile.cache
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\GUI_PE_Viewer_MarkupCompile.lref
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\MainWindow.baml
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\GUI_PE_Viewer.g.resources
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\GUI_PE_Viewer.Properties.Resources.resources
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\GUI_PE_Viewer.csproj.GenerateResource.cache
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\GUI_PE_Viewer.csproj.CoreCompileInputs.cache
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\GUI_PE_Viewer.exe
+D:\GUI_PE_Viewer\GUI_PE_Viewer\obj\Debug\GUI_PE_Viewer.pdb
