@@ -34,12 +34,12 @@ namespace structure
         public WORD e_cs;                        // Initial (relative) CS value
         public WORD e_lfarlc;                    // File address of relocation table
         public WORD e_ovno;                      // Overlay number
-        [MarshalAs(UnmanagedType.ByValArray, SizeConst = 4)]
-        public WORD[] e_res;       // Reserved words
+        [MarshalAs(UnmanagedType.ByValArray, SizeConst = 8)]
+        public BYTE[] e_res;       // Reserved words
         public WORD e_oemid;                     // OEM identifier (for e_oeminfo)
         public WORD e_oeminfo;                   // OEM information; e_oemid specific
-        [MarshalAs(UnmanagedType.ByValArray, SizeConst = 10)]
-        public WORD[] e_res2;     // Reserved words
+        [MarshalAs(UnmanagedType.ByValArray, SizeConst = 20)]
+        public BYTE[] e_res2;     // Reserved words
         public LONG e_lfanew;                    // File address of new exe header
     };
 
